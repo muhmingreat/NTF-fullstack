@@ -1,0 +1,25 @@
+title {
+    width: 100%;
+}
+.title_box {
+    width: 80%;
+    margin:0 auto;
+}
+.title_box h2 {
+font-size: 2rem;
+line-height: 0;
+}
+
+@media(min-width:320px),
+(max-width:425)
+ {
+.title{
+    width: 90%;
+}
+.title_box h2{
+ font-size: 1rem;
+  line-height: 0;
+  text-align: center;
+
+} 
+}
